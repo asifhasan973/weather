@@ -18,6 +18,10 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.invisible-div {
+    margin-top: 150px;
+}
+
 .our-input {
     border-radius: 50px;
 }
@@ -61,5 +65,8 @@ body {
     }
     .about-box {
         width: 20%;
+    }
+    .invisible-div {
+        margin-top: 80px;
     }
 }
