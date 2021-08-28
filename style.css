@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about-box {
+    width: 40%;
+    border-radius: 15px;
+    background: #4cb8c4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3CD3AD, #4CB8C4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.our-input {
+    border-radius: 50px;
+}
+
+.our-btn {
+    border-radius: 25px;
+    padding: 5px 25px 5px 25px;
+}
+
+.our-footer {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+}
+
+.our-name {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 255, 55);
+}
+
+@media only screen and (max-width: 500px) {
+    .our-btn {
+        display: block;
+    }
+}
